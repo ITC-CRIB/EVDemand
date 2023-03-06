@@ -29,3 +29,5 @@ If the outcome is positive, then a recharge state is started.
 Otherwise, the state is set as idle.
 The selected state changes into a driving state when the analysis time reaches the time to home, and the agent travels back to home, where it can enter again either an idle or a recharge state following the same probabilistic logic that is applied when it arrived at work.
 This state continues until the time to work the next day, which completes a full transition cycle. 
+
+![Example state transision workflow of an agent](docs/static/EVDemand-Figure-1.png)
